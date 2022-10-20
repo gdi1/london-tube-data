@@ -1,0 +1,25 @@
+{
+  "name": "london-tube-data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "database.js",
+  "scripts": {
+    "start": "nodemon database.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdi1/london-tube-data.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdi1/london-tube-data/issues"
+  },
+  "homepage": "https://github.com/gdi1/london-tube-data#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "mongodb": "^4.11.0",
+    "mongoose": "^6.6.5",
+    "readline": "^1.3.0"
+  }
+}
